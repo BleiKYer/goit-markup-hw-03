@@ -299,6 +299,7 @@ img {
 /* .portfolio-section {
     margin-top: 80px;
 } */
+
 /* Filter */
 .filter {
     display: flex;
@@ -347,8 +348,6 @@ img {
 
     margin-right: 30px;
     margin-bottom: 30px;
-
-    border: 1px solid #eeeeee;
 }
 .project-card:nth-child(3n) {
     margin-right: 0;
@@ -361,8 +360,13 @@ img {
     padding: 20px 24px;
 
     background-color: var(--primary-white);
+
+    border: 1px solid #eeeeee;
+    border-top: none;
 }
 .link .title {
+    margin-bottom: 4px;
+
     font-size: 18px;
     line-height: 2;
     letter-spacing: 0.06em;
