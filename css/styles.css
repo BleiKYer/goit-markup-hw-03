@@ -70,6 +70,20 @@ img {
     padding-bottom: 94px;
 }
 
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
 /* Header */
 
 .header {
@@ -142,15 +156,18 @@ img {
 /* Hero */
 
 .hero {
+    padding: 200px 0px;
+
     text-align: center;
     letter-spacing: 0.06em;
     background-color: var(--hero-footer-bgc);
     color: var(--primary-white);
 }
-
+/* 
 .hero-container {
-    padding: 200px 0px;
-}
+    
+} */
+
 .hero-title {
     max-width: 696px;
 
@@ -190,10 +207,10 @@ img {
     padding-bottom: 0px;
 }
 
-.features,
+/* .features,
 .portfolio {
-    visibility: hidden;
-}
+    
+} */
 .feature-list {
     display: flex;
 }
@@ -263,12 +280,14 @@ img {
 /* Footer */
 
 .footer {
+    padding: 60px 0;
+
     background-color: var(--hero-footer-bgc);
 }
-
+/* 
 .footer-container {
-    padding: 60px 0;
-}
+    
+} */
 .footer .logo {
     display: block;
     margin-bottom: 20px;
